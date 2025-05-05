@@ -1,0 +1,89 @@
+
+h1{
+    background-color: #36a4ee; /* Azul claro */
+    padding: 10px;
+    height: 150px;
+    display: flex; /* Activa Flexbox para el contenedor */
+    justify-content: center; /* Centra horizontalmente el contenido */
+    align-items: center; /* Centra verticalmente el contenido */
+    color: white; /* Cambia el color del texto del título para que contraste */
+    font-size: 2em; /* Aumenta el tamaño de la fuente del título */
+    margin-top: 0; /* Elimina el margen superior */
+    margin-bottom: 0; /* Elimina el margen inferior */
+ 
+}
+
+.formulariojaja {
+    background-color: #dbe0e6; /* Celeste claro */
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    height: 80px;
+
+
+}
+.campo {
+    display: flex;
+    flex-direction: column;
+}
+.campo input {
+    padding: 8px 12px; /* Espacio dentro de los campos */
+    font-size: 1em; /* Tamaño de la fuente */
+    width: 100%; /* Los campos ocupan todo el ancho disponible */
+    border: 2px solid #007bff; /* Borde gris claro */
+    border-radius: 5px; /* Bordes redondeados */
+    background-color: #f9f9f9; /* Fondo claro */
+    color: #333; /* Color del texto dentro del campo */
+    transition: border-color 0.3s ease; /* Transición para el borde al pasar el ratón */
+}
+.boton-formulario {
+    margin-top: 6px; 
+    padding: 8px 15px;
+    height: 50px;
+    width: 140px;
+    border: white solid 3px;
+    border-radius: 10px;
+    background-color: #007bff; 
+    color: white;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+    margin-left: 10px; /* Espacio entre los campos y los botones */
+}
+.boton-formulario-buscar {
+    margin-top: 6px;
+    background-color: #007bff; 
+    height: 50px;
+    width: 140px;
+    border: white solid 3px;
+    border-radius: 10px;
+    padding: 8px 15px;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    transition: background-color 0.3s ease;
+    margin-left: 10px; /* Espacio entre los campos y los botones */
+}
+
+.boton-formulario:hover {
+    background-color: #0056b3;
+}
+.boton-formulario-buscar:hover {
+    background-color: #0056b3;
+}
+.table {
+    width: 100%;
+    border-collapse: collapse; /* Opcional: elimina espacios entre celdas */
+}
+.table, .table th, .table td {
+    border: 3px solid white;
+    background-color: #36a4ee;
+    padding: 12px;
+    color: white;
+}
+.identificacion {
+    width: 15%; /* Hacemos que la columna sea un poco más pequeña */
+}
+.documento {
+    width: 15%; /* Hacemos que la columna sea un poco más pequeña */
+}

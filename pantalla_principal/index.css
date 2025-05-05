@@ -1,0 +1,32 @@
+.fila-titulo {
+    background-color: #36a4ee; /* Azul claro */
+    padding: 10px;
+    height: 150px;
+    display: flex; /* Activa Flexbox para el contenedor */
+    justify-content: center; /* Centra horizontalmente el contenido */
+    align-items: center; /* Centra verticalmente el contenido */
+    color: white; /* Cambia el color del texto del título para que contraste */
+    font-size: 2em; /* Aumenta el tamaño de la fuente del título */
+}
+
+.fila-opciones {
+    background-color: #dbe0e6; /* Celeste claro */
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    height: 80px;
+}
+
+
+.opcion {
+    background-color: rgb(55, 55, 255); /* Azul */
+    color: white; /* Cambia el color del texto de las opciones para que contraste */
+    padding: 5px 10px; /* Aumenta el relleno interno para hacer las opciones más grandes */
+    border-radius: 10px; /* Aumenta el radio del borde para hacerlo más redondeado */
+    border: 2px solid white; /* Elimina el borde por defecto */
+    font-size: 1.2em; /* Aumenta el tamaño de la fuente de las opciones */
+    width: 150px; /* Permite que el ancho se ajuste al contenido con el padding */
+    height: 50px; /* Permite que la altura se ajuste al contenido con el padding */
+    text-align: center; /* Centra el texto dentro de cada opción */
+    text-decoration: none;
+}
